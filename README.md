@@ -138,6 +138,7 @@ If you use OAPP or reference it in your own projects, please include credit:
 
 **“Based on the Open Agent Payment Protocol (OAPP) – an open standard initiated by Chris Lever SEO.”**
 
+Read the introduction: https://chrisleverseo.com/blog/introducing-oapp-an-open-protocol-for-agentic-commerce/
 ---
 
 **#AgenticCommerce #AICommerce #OAPP #OpenSource #ProtocolDesign**
