@@ -8,13 +8,35 @@ OAPP is a lightweight, open protocol for agentic commerce. It defines three sign
 
 This repository includes the formal spec, JSON Schemas, a browser builder, a CLI toolkit, and integration notes.
 
-## Quick links
+oapp/
+├─ LICENSE
+├─ README.md
+├─ CONTRIBUTING.md
+├─ spec/
+│  ├─ oapp-v0.1.md
+│  └─ json-schema/
+│     ├─ intent.schema.json
+│     ├─ cart.schema.json
+│     └─ payment.schema.json
+├─ examples/
+│  ├─ intent.json
+│  ├─ cart.json
+│  └─ payment.json
+├─ tools/
+│  ├─ builder/            # Static web builder
+│  │  ├─ index.html
+│  │  ├─ styles.css
+│  │  └─ app.js
+│  └─ cli/
+│     ├─ package.json     # ajv, tweetnacl, yargs
+│     ├─ oapp-keygen.js   # generate Ed25519 keypair
+│     ├─ oapp-sign.js     # sign mandates
+│     └─ oapp-verify.js   # schema + signature verify
+└─ adapters/
+   ├─ stripe.md
+   ├─ shopify.md
+   └─ woocommerce.md
 
-- Spec: [`/spec/oapp-v0.1.md`](spec/oapp-v0.1.md)
-- JSON Schemas: [`/spec/json-schema`](spec/json-schema)
-- Examples: [`/examples`](examples)
-- Builder (static site): [`/tools/builder`](tools/builder)
-- CLI tools: [`/tools/cli`](tools/cli)
 
 ## Why OAPP
 
