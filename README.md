@@ -8,6 +8,7 @@ OAPP is a lightweight, open protocol for agentic commerce. It defines three sign
 
 This repository includes the formal spec, JSON Schemas, a browser builder, a CLI toolkit, and integration notes.
 
+```text
 oapp/
 ├─ LICENSE
 ├─ README.md
